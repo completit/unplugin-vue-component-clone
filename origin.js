@@ -56,4 +56,3 @@ export default /*#__PURE__*/ _export_sfc(_sfc_main, [
     "/Users/zego/completit/unplugin-vue-component-clone/playground/src/App.vue",
   ],
 ]);
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkFwcC52dWUiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7Ozs7d0JBQUE7OEJBR0Usb0JBQWMsYUFBVCxLQUFHO0lBQ1IsYUFBK0IseUJBQW5CLEdBQUcsRUFBQyxZQUFZIiwic291cmNlc0NvbnRlbnQiOlsiPHNjcmlwdCBzZXR1cD48L3NjcmlwdD5cblxuPHRlbXBsYXRlPlxuICA8ZGl2PmFwcDwvZGl2PlxuICA8SGVsbG9Xb3JsZCBtc2c9XCJWaXRlICsgVnVlXCIgLz5cbjwvdGVtcGxhdGU+XG5cbjxzdHlsZSBzY29wZWQ+PC9zdHlsZT5cbiJdfQ==
