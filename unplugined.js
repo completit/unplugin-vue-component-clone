@@ -9,14 +9,7 @@ import {
   Fragment as _Fragment,
   openBlock as _openBlock,
   createElementBlock as _createElementBlock,
-} from "/node_modules/.vite/deps/vue.js?v=fa4cbeba";
-
-const _hoisted_1 = /*#__PURE__*/ _createElementVNode(
-  "div",
-  null,
-  " app ",
-  -1 /* HOISTED */
-);
+} from "/node_modules/.vite/deps/vue.js?v=e3226f2b";
 
 function _sfc_render(_ctx, _cache) {
   const _component_HelloWorld = __unplugin_components_0;
@@ -26,7 +19,16 @@ function _sfc_render(_ctx, _cache) {
     _createElementBlock(
       _Fragment,
       null,
-      [_hoisted_1, _createVNode(_component_HelloWorld, { msg: "Vite + Vue" })],
+      [
+        _cache[0] ||
+          (_cache[0] = _createElementVNode(
+            "div",
+            null,
+            "app",
+            -1 /* HOISTED */
+          )),
+        _createVNode(_component_HelloWorld, { msg: "Vite + Vue" }),
+      ],
       64 /* STABLE_FRAGMENT */
     )
   );
@@ -35,6 +37,9 @@ function _sfc_render(_ctx, _cache) {
 _sfc_main.__hmrId = "7a7a37b1";
 typeof __VUE_HMR_RUNTIME__ !== "undefined" &&
   __VUE_HMR_RUNTIME__.createRecord(_sfc_main.__hmrId, _sfc_main);
+import.meta.hot.on("file-changed", ({ file }) => {
+  __VUE_HMR_RUNTIME__.CHANGED_FILE = file;
+});
 import.meta.hot.accept((mod) => {
   if (!mod) return;
   const { default: updated, _rerender_only } = mod;
@@ -49,7 +54,7 @@ export default /*#__PURE__*/ _export_sfc(_sfc_main, [
   ["render", _sfc_render],
   [
     "__file",
-    "/Users/zego/source-code/unplugin-vue-components/playground/src/App.vue",
+    "/Users/zego/completit/unplugin-vue-component-clone/playground/src/App.vue",
   ],
 ]);
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7O1FBSUUsWUFFTTtJQUNOIiwibmFtZXMiOltdLCJpZ25vcmVMaXN0IjpbXSwic291cmNlcyI6WyJBcHAudnVlIl0sInNvdXJjZXNDb250ZW50IjpbIjxzY3JpcHQgc2V0dXA+XG48L3NjcmlwdD5cblxuPHRlbXBsYXRlPlxuICA8ZGl2PlxuICAgIGFwcFxuICA8L2Rpdj5cbiAgPEhlbGxvV29ybGQgbXNnPVwiVml0ZSArIFZ1ZVwiIC8+XG48L3RlbXBsYXRlPlxuXG48c3R5bGUgc2NvcGVkPlxuPC9zdHlsZT5cbiJdLCJmaWxlIjoiL1VzZXJzL3plZ28vc291cmNlLWNvZGUvdW5wbHVnaW4tdnVlLWNvbXBvbmVudHMvcGxheWdyb3VuZC9zcmMvQXBwLnZ1ZSJ9
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJtYXBwaW5ncyI6Ijs7Ozs7OzsyQ0FHRSxVQUFjO0lBQ2QsYUFBK0IsZ0NBQWYsWUFBWSIsIm5hbWVzIjpbXSwiaWdub3JlTGlzdCI6W10sInNvdXJjZXMiOlsiQXBwLnZ1ZSJdLCJzb3VyY2VzQ29udGVudCI6WyI8c2NyaXB0IHNldHVwPjwvc2NyaXB0PlxuXG48dGVtcGxhdGU+XG4gIDxkaXY+YXBwPC9kaXY+XG4gIDxIZWxsb1dvcmxkIG1zZz1cIlZpdGUgKyBWdWVcIiAvPlxuPC90ZW1wbGF0ZT5cblxuPHN0eWxlIHNjb3BlZD48L3N0eWxlPlxuIl0sImZpbGUiOiIvVXNlcnMvemVnby9jb21wbGV0aXQvdW5wbHVnaW4tdnVlLWNvbXBvbmVudC1jbG9uZS9wbGF5Z3JvdW5kL3NyYy9BcHAudnVlIn0=

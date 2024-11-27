@@ -1,0 +1,10 @@
+{
+  "include": [
+    "./src/**/*",
+    "./components.d.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}
