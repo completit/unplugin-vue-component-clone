@@ -4,7 +4,7 @@ exports[`transformCode > should transform code 1`] = `
 "/* unplugin-vue-components disabled */import __unplugin_directives_0 from 'test/directive/Loading';
 import __unplugin_components_0 from 'test/component/TestComp';
     const render = (_ctx, _cache) => {
-      const _component_el_infinite_scroll = _resolveComponent("el-infinite-scroll")
+      const _component_el_infinite_scroll = __unplugin_components_0
       const _directive_el_infinite_scroll = _resolveDirective("el-infinite-scroll")
 
       return _withDirectives(
